@@ -90,13 +90,14 @@
         </p>
       </div>
       <NuxtImg
-        src="/images/studio.jpg"
+        src="/images/studio.webp"
         class="lg:w-1/2 object-cover"
-        format="webp"
+        loading="lazy"
       />
     </section>
 
     <section class="bg-dp text-lp px-8 lg:px-16 py-16" id="services">
+      <p class="text-ds mb-8 text-center text-sm">Our expertise</p>
       <h2
         class="text-6xl text-center mb-16 font-medium"
         v-motion-slide-visible-once-bottom
@@ -175,6 +176,10 @@
     </section>
 
     <section class="px-8 lg:px-16 py-16" id="team">
+      <p class="text-ds mb-8 text-center text-sm">
+        The minds behind the studio
+      </p>
+
       <h2
         class="text-6xl text-center mb-16 font-medium"
         v-motion-slide-visible-once-bottom
@@ -189,10 +194,9 @@
         :duration="600"
       >
         <NuxtImg
-          src="/images/vandana.svg"
+          src="/images/vandana.webp"
           class="w-full lg:w-1/3 aspect-square object-cover rounded-full border-8 border-ls shrink-0"
           loading="lazy"
-          format="webp"
         />
         <div class="p-8 lg:py-16 text-base">
           <p class="mb-4">
@@ -219,10 +223,9 @@
         :duration="600"
       >
         <NuxtImg
-          src="/images/sreejith.svg"
+          src="/images/sreejith.webp"
           class="w-full lg:w-1/3 aspect-square object-cover rounded-full border-8 border-ls shrink-0"
           loading="lazy"
-          format="webp"
         />
         <div class="p-8 lg:py-16 text-base lg:text-right">
           <p class="mb-4">
@@ -271,6 +274,9 @@
     </section> -->
 
     <section class="px-8 lg:px-16 py-16 bg-accent text-dp" id="contact">
+      <p class="text-ls mb-8 text-center text-sm">
+        Got a question? Call or drop us a message.
+      </p>
       <h2
         class="text-6xl text-center mb-16 font-medium"
         v-motion-slide-visible-once-bottom
@@ -285,7 +291,7 @@
           >
         </NuxtLink>
         <div class="text-ds text-center py-4">or</div>
-        <NuxtLink href="tel:+9866002286">
+        <NuxtLink href="tel:+919866002286">
           <Button variant="light"
             ><PhoneCallIcon /> <span class="ml-4">+91 9866002286</span></Button
           ></NuxtLink
