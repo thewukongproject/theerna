@@ -7,5 +7,6 @@ export default defineNuxtConfig({
     "@nuxt/image",
     "@nuxtjs/tailwindcss",
     "nuxt-feather-icons",
+    "@vueuse/motion/nuxt",
   ],
 });

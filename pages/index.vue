@@ -20,7 +20,7 @@
               loop
               :modules="[Autoplay, EffectFade]"
               :autoplay="{
-                delay: 2500,
+                delay: 1500,
               }"
               effect="fade"
               :fadeEffect="{
@@ -75,7 +75,7 @@
 
     <section class="lg:flex border-t-8 border-accent">
       <div class="px-8 lg:px-16 py-16 lg:w-1/2 shrink-0 flex items-center">
-        <p class="text-ds">
+        <p class="text-ds" v-motion-slide-visible-once-bottom :duration="600">
           Our production house is a welcoming space nestled in the temple town
           of Tripunithura, Kochi. Here, we work on scripts, project design,
           production, post-production, and distribution of films and music. We
@@ -91,18 +91,27 @@
       </div>
       <NuxtImg
         src="/images/studio.jpg"
-        class="lg:w-1/2 aspect-square lg:aspect-auto lg:h-screen object-cover"
-        loading="lazy"
+        class="lg:w-1/2 object-cover"
         format="webp"
       />
     </section>
 
     <section class="bg-dp text-lp px-8 lg:px-16 py-16" id="services">
-      <h2 class="text-6xl text-center mb-16 font-medium">
+      <h2
+        class="text-6xl text-center mb-16 font-medium"
+        v-motion-slide-visible-once-bottom
+        :duration="600"
+      >
         What we <span class="text-accent">do</span>
       </h2>
       <div class="lg:flex max-w-6xl mx-auto mb-16">
-        <div class="bg-lp text-dp lg:w-1/2 rounded-3xl p-8 lg:p-16">
+        <div
+          class="bg-lp text-dp lg:w-1/2 rounded-3xl p-8 lg:p-16"
+          v-motion
+          :initial="{ x: 128 }"
+          :visible-once="{ x: 0 }"
+          :duration="600"
+        >
           <h2 class="text-4xl mb-8 font-medium">Movie production</h2>
           <ul class="divide-y divide-br">
             <li class="flex items-center py-2">
@@ -121,12 +130,22 @@
         </div>
         <div
           class="bg-accent rounded-3xl p-8 lg:w-1/2 flex items-center justify-center"
+          v-motion
+          :initial="{ x: -128 }"
+          :visible-once="{ x: 0 }"
+          :duration="600"
         >
           <FilmIcon />
         </div>
       </div>
       <div class="lg:flex flex-row-reverse max-w-6xl mx-auto">
-        <div class="bg-lp text-dp lg:w-1/2 rounded-3xl p-8 lg:p-16">
+        <div
+          class="bg-lp text-dp lg:w-1/2 rounded-3xl p-8 lg:p-16"
+          v-motion
+          :initial="{ x: -128 }"
+          :visible-once="{ x: 0 }"
+          :duration="600"
+        >
           <h2 class="text-4xl mb-8 font-medium">Music production</h2>
           <ul class="divide-y divide-br">
             <li class="flex items-center py-2">
@@ -145,6 +164,10 @@
         </div>
         <div
           class="bg-accent rounded-3xl p-8 lg:w-1/2 flex items-center justify-center"
+          v-motion
+          :initial="{ x: 128 }"
+          :visible-once="{ x: 0 }"
+          :duration="600"
         >
           <MusicIcon />
         </div>
@@ -152,12 +175,18 @@
     </section>
 
     <section class="px-8 lg:px-16 py-16" id="team">
-      <h2 class="text-6xl text-center mb-16 font-medium">
+      <h2
+        class="text-6xl text-center mb-16 font-medium"
+        v-motion-slide-visible-once-bottom
+        :duration="600"
+      >
         Who <span class="text-accent">we</span> are
       </h2>
 
       <div
         class="lg:flex items-center max-w-6xl mx-auto rounded-full overflow-hidden bg-ls mb-16 pb-16 lg:pb-0"
+        v-motion-fade-visible-once
+        :duration="600"
       >
         <NuxtImg
           src="/images/vandana.svg"
@@ -186,6 +215,8 @@
 
       <div
         class="lg:flex items-center lg:flex-row-reverse max-w-6xl mx-auto rounded-full overflow-hidden bg-ls pb-16 lg:pb-0"
+        v-motion-fade-visible-once
+        :duration="600"
       >
         <NuxtImg
           src="/images/sreejith.svg"
@@ -240,7 +271,11 @@
     </section> -->
 
     <section class="px-8 lg:px-16 py-16 bg-accent text-dp" id="contact">
-      <h2 class="text-6xl text-center mb-16 font-medium">
+      <h2
+        class="text-6xl text-center mb-16 font-medium"
+        v-motion-slide-visible-once-bottom
+        :duration="600"
+      >
         Book your session <span class="text-lp">now</span>
       </h2>
       <div class="lg:flex lg:space-x-8 items-center justify-center">
@@ -275,9 +310,9 @@
           >© 2024 Theerna Films & Entertainment</span
         >
 
-        <NuxtLink href="/legal/privacy-policy"> Privacy Policy </NuxtLink>
+        <NuxtLink target="_blank"> Privacy Policy </NuxtLink>
 
-        <NuxtLink href="/legal/terms-conditions"> Terms & Conditions </NuxtLink>
+        <NuxtLink target="_blank"> Terms & Conditions </NuxtLink>
       </div>
     </section>
   </div>
