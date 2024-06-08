@@ -89,9 +89,9 @@
             music director, and movie director at Theerna.
           </p>
           <p>
-            I am a well-known Music Director from the South and have composed
-            and delivered hit singles in the Malayalam and Tamil industries. An
-            Oscar Contention nominee for Music Direction in KS 3D, I have worked
+            I am a Music Director from the South and have composed and delivered
+            hit singles in the Malayalam and Tamil industries. An Oscar
+            Contention nominee for Music Direction in KS 3D, I have worked
             extensively on movies, independent music albums, and ad jingles. I
             turned film director with my first movie, Cicada, which is in the
             four South Indian languages. My short film, "Bride of Dance," won me
