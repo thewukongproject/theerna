@@ -6,6 +6,7 @@
       src="/images/logo.svg"
       class="w-12 lg:w-16 mx-auto lg:ml-0 cursor-pointer"
       @click="scrollToSection('hero')"
+      alt="Theerna Films & Entertainment"
     />
     <div class="hidden lg:flex space-x-16 text-ls justify-between text-xl">
       <span

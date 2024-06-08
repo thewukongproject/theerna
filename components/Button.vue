@@ -11,7 +11,7 @@ const props = defineProps<{
 
 const className = computed(() => {
   let className =
-    "px-8 py-4 rounded-2xl cursor-pointer flex items-center justify-center";
+    "px-8 py-4 rounded-2xl cursor-pointer flex items-center justify-center whitespace-nowrap";
   if (props.variant === "accent") {
     className += " bg-accent text-lp transition hover:bg-dp";
   } else if (props.variant === "light") {
