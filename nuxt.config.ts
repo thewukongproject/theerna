@@ -8,7 +8,7 @@ export default defineNuxtConfig({
         {
           name: "description",
           content:
-            "We ideate, create, and bring stories to life for everyone to enjoy.",
+            "Theerna Films & Entertainment in Kochi ideates and produces diverse content: movies, short films, ads, documentaries, and music videos, ensuring unique, high-quality outputs.",
         },
         {
           name: "keywords",
@@ -19,7 +19,7 @@ export default defineNuxtConfig({
         {
           name: "og:description",
           content:
-            "We ideate, create, and bring stories to life for everyone to enjoy.",
+            "Theerna Films & Entertainment in Kochi ideates and produces diverse content: movies, short films, ads, documentaries, and music videos, ensuring unique, high-quality outputs.",
         },
         { name: "og:type", content: "website" },
         { name: "og:url", content: "https://theernafilms.in" },
@@ -27,7 +27,7 @@ export default defineNuxtConfig({
         {
           name: "twitter:description",
           content:
-            "We ideate, create, and bring stories to life for everyone to enjoy.",
+            "Theerna Films & Entertainment in Kochi ideates and produces diverse content: movies, short films, ads, documentaries, and music videos, ensuring unique, high-quality outputs.",
         },
         { name: "twitter:url", content: "https://theernafilms.in" },
         { name: "twitter:card", content: "summary_large_image" },

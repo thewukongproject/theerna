@@ -5,18 +5,17 @@
     <section class="lg:flex border-t-8 border-accent">
       <div class="px-8 lg:px-16 py-16 lg:w-1/2 shrink-0 flex items-center">
         <p class="text-ds" v-motion-slide-visible-once-bottom :duration="600">
-          Our production house is a welcoming space nestled in the temple town
-          called Tripunithura, Kochi. Here we ideate and create stories. We work
-          on scripts, project design, production, post production and
-          distribution of films and music. Our team has some very good creative
-          minds who are passionate about art and ambitious to turn your vision
-          into a visual treat.
+          Theerna, our production house, is a welcoming space nestled in the
+          temple town of Tripunithura, Kochi. Here, we ideate and create
+          captivating stories. Our work encompasses script development, project
+          design, production, post-production, and distribution of films and
+          music.
           <br /><br />
-          We have a decade long experience in music production under the
-          renowned Music Director Sreejith Edavana. His songs in Malayalam and
-          Tamil have hit the charts several times and continue to do so. Cicada
-          is our first full length feature film to be produced under the Theerna
-          Films and Entertainment banner.
+          Our team consists of highly creative minds passionate about art and
+          driven to transform your vision into a stunning visual experience.
+          "Cicada," our first full-length feature film, proudly bears the
+          Theerna Films and Entertainment banner, marking a significant
+          milestone in our journey of storytelling and cinematic excellence.
         </p>
       </div>
       <NuxtImg
@@ -55,19 +54,20 @@
         />
         <div class="p-8 lg:py-16 text-base">
           <p class="mb-4">
-            Hi, I'm <span class="font-medium">Vandana</span>, co-founder and
-            manager of project design and operations at Theerna.
+            <span class="font-medium">Vandana</span> is the co-founder and
+            manager of project design and operations at Theerna Films.
           </p>
           <p>
-            I have been in the corporate world for over two decades. Starting in
-            marketing for well-known brands like Pepe Jeans London, Times
-            Internet Limited, Airtel, and Google, I transitioned into client
-            servicing and talent casting for FMCG brands. My entrepreneurial
-            spirit led me to co-found a dance academy and a photography studio
-            in Bangalore, showcasing my passion for creative ventures outside
-            the corporate realm. As a lover of all forms of art, it was natural
-            for me to venture into the film world through Theerna Films and
-            Entertainment, a production house in Kochi.
+            Her corporate career spans more than a decade in marketing and
+            communication. Starting in marketing for well-known brands like Pepe
+            Jeans London, Times Internet Limited, Airtel, and Google, she
+            transitioned into client servicing and talent casting for FMCG
+            brands. Her entrepreneurial spirit led her to co-found a dance
+            academy and a photography studio in Bangalore, showcasing her
+            passion for creative ventures outside the corporate realm. As a
+            lover of all forms of art, it was natural for her to venture into
+            the film world through Theerna Films and Entertainment, a production
+            house in Kochi.
           </p>
         </div>
       </div>
@@ -85,20 +85,20 @@
         />
         <div class="p-8 lg:py-16 text-base lg:text-right">
           <p class="mb-4">
-            Hello, I'm <span class="font-medium">Sreejith</span>, co-founder,
-            music director, and movie director at Theerna.
+            <span class="font-medium">Sreejith</span>is the co-founder, music
+            director, and movie director at Theerna Films.
           </p>
           <p>
-            I am a Music Director from the South and have composed and delivered
+            A Music Director from the South, Sreejith has composed and delivered
             hit singles in the Malayalam and Tamil film industries. An Oscar
-            Contention nominee for Music Direction in KS 3D, I have worked
-            extensively on movies, independent music albums, and ad jingles. I
-            turned film director with my first movie, Cicada, which is in the
-            four South Indian languages. My short film, "Bride of Dance," won me
-            the best director award at the Kodaikanal International Film
-            Festival. I have composed and directed many music videos that are
-            trending across all digital platforms. My notable works include
-            "Kaadal En Kaviye," "Tharam Padapichu Koodaram," "Nenjodu Chertu,"
+            Contention nominee for Music Direction in KS 3D, he has worked
+            extensively on movies, independent music albums, and ad jingles. He
+            turned film director with his first movie, Cicada, which is in the
+            four South Indian languages. His short film, 'Bride of Dance,' won
+            him the best director award at the Kodaikanal International Film
+            Festival. He has composed and directed many music videos that are
+            trending across all digital platforms. His notable works include
+            'Kaadal En Kaviye,' 'Tharam Padapichu Koodaram,' 'Nenjodu Chertu,'
             and many more that have been dubbed into other South Indian
             languages.
           </p>

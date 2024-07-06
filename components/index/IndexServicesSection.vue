@@ -44,7 +44,8 @@
           loop
           :modules="[Autoplay, EffectFade]"
           :autoplay="{
-            delay: 1500,
+            delay: 3000,
+            pauseOnMouseEnter: true,
           }"
           effect="fade"
           :fadeEffect="{
@@ -56,23 +57,28 @@
             v-for="service of services.movie"
             class="w-full h-full relative"
           >
+            <div
+              v-if="service.link"
+              class="flex w-full aspect-square items-center"
+            >
+              <iframe
+                :src="
+                  'https://www.youtube-nocookie.com/embed/' +
+                  service.link +
+                  '?controls=0'
+                "
+                referrerpolicy="strict-origin-when-cross-origin"
+                class="w-full aspect-video"
+              ></iframe>
+            </div>
             <NuxtImg
+              v-else
               :src="'/images/index/' + service.image + '.jpg'"
               class="w-full aspect-square object-contain"
               loading="lazy"
               format="webp"
               :alt="service.title"
             />
-            <NuxtLink
-              :href="service.link"
-              target="_blank"
-              v-if="service.link"
-              class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
-            >
-              <Button variant="light">
-                <span class="mr-4">Know more</span> <ExternalLinkIcon />
-              </Button>
-            </NuxtLink>
           </swiper-slide>
         </swiper>
       </div>
@@ -113,7 +119,8 @@
           loop
           :modules="[Autoplay, EffectFade]"
           :autoplay="{
-            delay: 1500,
+            delay: 3000,
+            pauseOnMouseEnter: true,
           }"
           effect="fade"
           :fadeEffect="{
@@ -125,23 +132,28 @@
             v-for="service of services.music"
             class="w-full h-full relative"
           >
+            <div
+              v-if="service.link"
+              class="flex w-full aspect-square items-center"
+            >
+              <iframe
+                :src="
+                  'https://www.youtube-nocookie.com/embed/' +
+                  service.link +
+                  '?controls=0'
+                "
+                referrerpolicy="strict-origin-when-cross-origin"
+                class="w-full aspect-video"
+              ></iframe>
+            </div>
             <NuxtImg
+              v-else
               :src="'/images/index/' + service.image + '.jpg'"
               class="w-full aspect-square object-contain"
               loading="lazy"
               format="webp"
               :alt="service.title"
             />
-            <NuxtLink
-              :href="service.link"
-              target="_blank"
-              v-if="service.link"
-              class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
-            >
-              <Button variant="light">
-                <span class="mr-4">Know more</span> <ExternalLinkIcon />
-              </Button>
-            </NuxtLink>
           </swiper-slide>
         </swiper>
       </div>
@@ -164,12 +176,12 @@ const services = {
     {
       title: "Feature & short films",
       image: "feature-short-films",
-      link: "https://www.youtube.com/watch?v=vGHgFc9V2VU",
+      link: "vGHgFc9V2VU",
     },
     {
       title: "Documentaries & Ads",
       image: "documentaries-ads",
-      link: "https://www.youtube.com/watch?v=gqNJ4eiN_TQ",
+      link: "gqNJ4eiN_TQ",
     },
     {
       title: "Project designing",
@@ -178,29 +190,29 @@ const services = {
     {
       title: "Post production works",
       image: "post-production-works",
-      link: "https://www.youtube.com/watch?v=vGHgFc9V2VU",
+      link: "-IplYQiB3dI",
     },
   ],
   music: [
     {
       title: "Music composing",
       image: "music-composing",
-      link: "https://www.youtube.com/watch?v=J67n0lYHROM",
+      link: "J67n0lYHROM",
     },
     {
       title: "RR works",
       image: "rr-works",
-      link: "https://www.youtube.com/watch?v=iQNVj0pj62Q&t=11s",
+      link: "iQNVj0pj62Q",
     },
     {
       title: "Mixing & mastering",
       image: "mixing-mastering",
-      link: "https://www.youtube.com/watch?v=ZK4uGLpkAKk",
+      link: "ZK4uGLpkAKk",
     },
     {
       title: "Dubbing & voice over",
       image: "dubbing-voice-over",
-      link: "https://www.youtube.com/watch?v=HYRvYCggLNU",
+      link: "jP72R-f6vr4",
     },
   ],
 };

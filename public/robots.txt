@@ -1,0 +1,6 @@
+User-Agent: *
+Disallow: /legal/*
+Disallow: /_nuxt/*
+Allow: /
+
+Sitemap: https://theernafilms.in/sitemap.xml

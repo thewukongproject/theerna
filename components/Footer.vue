@@ -29,10 +29,28 @@
       <div class="flex items-center space-x-4">
         <span>Follow us on :</span>
         <NuxtLink
-          href="https://www.youtube.com/channel/UCrab6Eo8mefSkJXYRFnvqwg"
+          href="https://www.instagram.com/theerna_films/"
           target="_blank"
         >
-          <YoutubeIcon size="32" />
+          <InstagramIcon />
+        </NuxtLink>
+        <NuxtLink
+          href="https://www.facebook.com/profile.php?id=61561638449676"
+          target="_blank"
+        >
+          <FacebookIcon />
+        </NuxtLink>
+        <NuxtLink
+          href="https://www.youtube.com/@theernaentertaintment"
+          target="_blank"
+        >
+          <YoutubeIcon />
+        </NuxtLink>
+        <NuxtLink
+          href="https://www.linkedin.com/company/theerna-films/"
+          target="_blank"
+        >
+          <LinkedinIcon />
         </NuxtLink>
       </div>
 
@@ -42,9 +60,13 @@
         >© 2024 Theerna Films & Entertainment</span
       >
 
-      <NuxtLink target="_blank"> Privacy Policy </NuxtLink>
+      <NuxtLink target="_blank" href="/legal/privacy-policy">
+        Privacy Policy
+      </NuxtLink>
 
-      <NuxtLink target="_blank"> Terms & Conditions </NuxtLink>
+      <NuxtLink target="_blank" href="/legal/terms-conditions">
+        Terms & Conditions
+      </NuxtLink>
     </div>
   </section>
 </template>
