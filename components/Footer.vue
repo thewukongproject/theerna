@@ -1,14 +1,11 @@
 <template>
   <section class="px-8 lg:px-16 py-16 bg-accent text-dp" id="contact">
-    <p class="text-ls mb-8 text-center text-sm">
-      Got a question? Call or drop us a message.
-    </p>
     <h2
       class="text-4xl lg:text-6xl text-center mb-16 font-medium"
       v-motion-slide-visible-once-bottom
       :duration="600"
     >
-      Book your session <span class="text-lp">now</span>
+      Got a question? <span class="text-lp">Call us</span>
     </h2>
     <div class="lg:flex lg:space-x-8 items-center justify-center">
       <NuxtLink href="tel:+919884663868">
