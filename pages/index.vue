@@ -2,6 +2,18 @@
   <div>
     <IndexHeroSection />
 
+    <section class="p-8 bg-accent text-lp flex flex-col items-center">
+      <p class="mb-4">
+        Watch the official trailer of our film Cicada on YouTube. It's a
+        thrilling experience!!
+      </p>
+      <iframe
+        src="https://www.youtube-nocookie.com/embed/Xw44lzJZeXY?controls=0"
+        referrerpolicy="strict-origin-when-cross-origin"
+        class="w-full lg:w-1/4 aspect-video"
+      ></iframe>
+    </section>
+
     <section class="lg:flex border-t-8 border-accent">
       <div class="px-8 lg:px-16 py-16 lg:w-1/2 shrink-0 flex items-center">
         <p class="text-ds" v-motion-slide-visible-once-bottom :duration="600">
